@@ -23,7 +23,7 @@ export const projects = [
     {   
         title: "Mastermind Code-Breaker",
         subtitle: "C#",
-        description: "A C# Console Mastermind Code-Breaker that I amde for my Data and Algorithms Module. It's a game where the computer generates a code up to 9 digits long with numbers varing from 1-4 to 1-9 and the user has up to 20 guesses to guess the correct code",
+        description: "A C# Console Mastermind Code-Breaker that I made for my Data and Algorithms Module. It's a game where the computer generates a code up to 9 digits long with numbers varing from 1-4 to 1-9 and the user has up to 20 guesses to guess the correct code",
         image: "/images/project-4.gif",
         link: "https://github.com/Parker06/Mastermind-Code-Breaker",
     },

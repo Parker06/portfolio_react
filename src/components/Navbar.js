@@ -35,6 +35,7 @@ export default function Navbar() {
                 scale: 1.1,
                 transition: {duration: 0.5},
               }}
+              target="_blank"
               href="https://github.com/Parker06"
               className="inline-flex items-center focus:outline-none rounded text-white mt-1 md:mt-0 pr-2 mr-3">
               <img className="h-16 w-16" src="./images/github_gradient.png"/>
@@ -48,6 +49,7 @@ export default function Navbar() {
                 transition: {duration: 0.5},
               }}
               href="https://www.instagram.com/harry_parker_it/"
+              target="_blank"
               className="inline-flex items-center focus:outline-none rounded text-white mt-1 md:mt-0 pr-2 mr-3">
               <img className="h-16 w-16" src="./images/instagram_gradient.png"/>
               Instagram
@@ -60,6 +62,7 @@ export default function Navbar() {
                 transition: {duration: 0.5},
               }}
               href="https://www.linkedin.com/in/harry-parker-it976/"
+              target="_blank"
               className="inline-flex items-center focus:outline-none rounded text-white mt-1 md:mt-0 mr-3 pr-2">
               <img className="h-16 w-16" src="./images/linkedin_gradient.png"/>
               Linkedin
