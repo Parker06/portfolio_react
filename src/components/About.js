@@ -1,20 +1,13 @@
 import React from 'react';
+import { motion } from "framer-motion";
+import "../index.css";
 
 export default function About() {
 
-    function ButtonColour(e){
-        e.target.style.background = '##3C61F5';
-    }
-
-    function ButtonSecond(e){
-        e.target.style.background = '#23B1DB'
-    }
-    
-
     return (
-        <section id="about">
+        <section id="about" className="bg-gray-800" style={{backgroundColor: '#3E63F5'}}>
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-                <div className="lg:flex-grow md:w-1/2 lg:flex-grow md:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <div className="lg:flex-grow md:w-1/2 lg:flex-grow md:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mt-16  md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Harry Parker
                     </h1>
@@ -31,16 +24,28 @@ export default function About() {
                     Laborum, voluptas natus?
                     </p>*/}
                     <div className="flex justify-content">
-                        <a 
+                        <motion.a 
+                            whileHover={{
+                                textShadow: "0px 0px 8px rgb (255,255,255)",
+                                boxShadow: "0px 0px 8px rgb (255,255,255)",
+                                scale: 1.1,
+                                transition: {duration: 1},
+                            }}
                             href="#contact"
-                            className="inline-flex text-white bg-blue-500 border-0 py-2 px-5 focus:outline-none hover:bg-purple-700 rounded text-lg">
+                            className="ml-0 inline-flex text-black bg-blue-400 border-0 py-2 px-6 pr-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                             Contact Me!
-                        </a>
-                        <a
+                        </motion.a>
+                        <motion.a
+                            whileHover={{
+                                textShadow: "0px 0px 8px rgb (255,255,255)",
+                                boxShadow: "0px 0px 8px rgb (255,255,255)",
+                                scale: 1.1,
+                                transition: {duration: 1},
+                            }}
                             href="#projects"
-                            className="ml-4 inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-purple-700 hover:text-black rounded text-lg" onMouseOver={ButtonSecond} onMouseLeave={ButtonColour}>
+                            className="ml-8 inline-flex text-black bg-blue-300 border-0 py-2 px-4 focus:outline-none hover:bg-gray-800 hover:text-white rounded text-lg">
                             See my Previous / Current Projects
-                        </a>
+                        </motion.a>
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

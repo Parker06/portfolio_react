@@ -1,4 +1,5 @@
 import React from "react";
+import "../index.css";
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -25,7 +26,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="relative">
+    <section id="contact" className="relative bg-blue-900 pt-100">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
@@ -72,8 +73,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            Drop a message to me if you are interested in hiring me! Email is better to contact me!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-md text-white">

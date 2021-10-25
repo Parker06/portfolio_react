@@ -53,20 +53,14 @@ export const skills = [
     },
     {
         technology: "Adobe Photoshop",
-    },
-    {
-        technology: "Visual Studio Code / 2019",
     }
 ];
 
 export const currentSkills = [
     {
         learning: "Java",
-    },
+    }, 
     {
-        learning: "Android Studio",
-    },
-    {
-        learning: "Microsoft SQL Server",
+        learning: "SQL",
     }
 ];

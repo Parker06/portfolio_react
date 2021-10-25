@@ -11,7 +11,7 @@ import Skills from './components/Skills';
 
 export default function App(){
   return (
-      <main className="text-gray-400 bg-blue-900">
+      <main className="text-gray-400" style={{backgroundColor: '#3E63F5'}}>
         <Navbar/>
         <About/>
         <Skills/>
