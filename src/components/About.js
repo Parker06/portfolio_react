@@ -1,6 +1,16 @@
 import React from 'react';
 
 export default function About() {
+
+    function ButtonColour(e){
+        e.target.style.background = '##3C61F5';
+    }
+
+    function ButtonSecond(e){
+        e.target.style.background = '#23B1DB'
+    }
+    
+
     return (
         <section id="about">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -23,12 +33,12 @@ export default function About() {
                     <div className="flex justify-content">
                         <a 
                             href="#contact"
-                            className="inline-flex text-white bg-green-500 border-0 py-2 px-5 focus:outline-none hover:bg-green-600 rounded text-lg">
+                            className="inline-flex text-white bg-blue-500 border-0 py-2 px-5 focus:outline-none hover:bg-purple-700 rounded text-lg">
                             Contact Me!
                         </a>
                         <a
                             href="#projects"
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                            className="ml-4 inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-purple-700 hover:text-black rounded text-lg" onMouseOver={ButtonSecond} onMouseLeave={ButtonColour}>
                             See my Previous / Current Projects
                         </a>
                     </div>

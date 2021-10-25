@@ -37,7 +37,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162805.1455801652!2d-4.252652550477155!3d50.3883600879516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486c8d530e95ea3d%3A0x3b282cb5cef58593!2sPlymouth!5e0!3m2!1sen!2suk!4v1635176643985!5m2!1sen!2suk"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -76,7 +76,7 @@ export default function Contact() {
             suscipit officia aspernatur veritatis. Asperiores, aliquid?
           </p>
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-md text-white">
               Name
             </label>
             <input
@@ -88,7 +88,7 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="leading-7 text-md text-white">
               Email
             </label>
             <input
@@ -102,7 +102,7 @@ export default function Contact() {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-400">
+              className="leading-7 text-md text-white">
               Message
             </label>
             <textarea
@@ -114,7 +114,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
             Submit
           </button>
         </form>
