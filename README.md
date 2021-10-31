@@ -3,19 +3,19 @@
 ## [Website](https://harry-parker.netlify.app)
 ## Read more about me! [Read Me!](https://github.com/Parker06/Parker06)
 
-## Technologies used
+# Technologies used:
 
-## Main Resources
+### Main Resources:
 * [React](https://reactjs.org)
 * To host it and store the contact form submissions: [Netlify](https://www.netlify.com/?utm_source=google&utm_medium=paid_search&utm_campaign=12755510784&adgroup=118788138897&utm_term=netlify&utm_content=kwd-371509120223&creative=514583565825&device=c&matchtype=e&location=9045312&gclid=EAIaIQobChMIga2fq7Pz8wIVDO7tCh1gkwgPEAAYASAAEgIl0vD_BwE)
 * Github 
 * Visual Studio Code
 
-### CSS 
+### CSS:
 * [React-bootstrap](https://react-bootstrap.github.io)
 * [Tailwind CSS](https://tailwindcss.com)
 
-### Graphics and Color Design
+### Graphics and Color Design:
 * Adobe Photoshop 
 * Adobe XD
 * Adobe Colours - [Colour Palette Used](https://color.adobe.com/My%20Color%20Blind%20Safe%20Theme-color-theme-18848127)
@@ -27,6 +27,7 @@
 * Giphy
 * [MP4 to GIF Converter](https://cloudconvert.com/mp4-to-gif)
 
+# React Docs
 
 # Getting Started with Create React App
 
