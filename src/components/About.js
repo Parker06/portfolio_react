@@ -52,7 +52,7 @@ export default function About() {
                     <img
                         className="object-cover object-center rounded"
                         alt="coding"
-                        src={process.env.PUBLIC_URL + "/images/coding.jpg"}                    
+                        src={process.env.PUBLIC_URL + "/images/work.png"}                    
                     />
                 </div>
             </div>
