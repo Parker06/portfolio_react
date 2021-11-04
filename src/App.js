@@ -1,9 +1,9 @@
-import React from 'react';
 
 //files for website
 
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Development from "./components/Development";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from './components/Skills';
