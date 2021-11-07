@@ -5,12 +5,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Noto Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,29 +23,96 @@ code {
     monospace;
 }
 
+nav a:hover{
+  border-bottom: 3px solid white;
+  transition: all 0.2s ease-in-out;
+}
+
 #about {
-  margin-top: 150px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin-bottom: 150px;
+  margin-top: 100px;
+  padding-bottom: 50px;
 }
 
 #skills{
-  margin-top: 150px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin-bottom: 150px;
+  padding-top: 50px;
 }
 
 #projects{
-  margin-top: 150px;
-  padding-top: 125px;
-  padding-bottom: 125px;
-  margin-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #contact{
-  margin-top: 150px;
-  padding-top: 200px;
-  padding-bottom: 250px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+/* Navbar */
+#Navbar button{
+  display: none;
+}
+
+#Navbar .leftSide{
+  align-items: center;
+  display: flex;
+  margin-right: 80px;
+}
+
+#Navbar .leftSide #hidden{
+  display: flex;
+}
+
+#Navbar .rightSide{
+  margin-left: 80px;
+}
+
+
+#Navbar button{
+  display: none;
+}
+
+
+@media only screen and (max-width: 850px) {
+  #Navbar a{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #Navbar #leftSide {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #Navbar button{
+    display: flex;
+  }
+
+  #Navbar .leftSide a{
+    display: none;
+  }
+
+  #Navbar .leftSide #hidden{
+    position: absolute;
+    left: 0;
+    top: 80px;
+    height: auto;
+    max-height: 230px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #Navbar .leftSide #hidden a{
+    margin: 10px;
+    font: size 25px;
+  }
+
+}
+
+/* images */
+
+#about img{
+  transition: 0.2s;
 }

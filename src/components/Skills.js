@@ -5,6 +5,7 @@ import { skills, currentSkills } from "../data";
 
 
 export default function Skills() {
+
     return (
         <section id="skills" className="bg-blue-900">
             <div className="container px-5 pt-5 py-10 mx-auto">

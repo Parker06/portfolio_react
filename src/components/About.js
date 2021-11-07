@@ -4,6 +4,21 @@ import "../index.css";
 
 export default function About() {
 
+    window.onload = function() {
+    var section = document.getElementById('about');
+    var sectionHeight = section.innerHeight;
+    var sectionWidth = section.innerWidth;
+    var scrollArea = 1000 - sectionHeight;
+    var img = document.getElementById('me');
+
+    window.addEventListener('scroll', function() {
+        var scrollTop = window.pageYOffset || window.scrollTop;
+        var scrollPercent = scrollTop / scrollArea || 0;
+
+        img.style.left = scrollPercent * sectionWidth + 'px';
+
+    });
+}
     return (
         <section id="about" className="bg-gray-800" style={{backgroundColor: '#3E63F5'}}>
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -32,7 +47,7 @@ export default function About() {
                                 transition: {duration: 1},
                             }}
                             href="#contact"
-                            className="ml-0 inline-flex text-black bg-blue-400 border-0 py-2 px-6 pr-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                            className="animate-bounce ml-0 inline-flex text-black bg-blue-400 border-0 py-2 px-6 pr-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded md:text-lg sm:text-sm mb-5">
                             Contact Me!
                         </motion.a>
                         <motion.a
@@ -43,13 +58,14 @@ export default function About() {
                                 transition: {duration: 1},
                             }}
                             href="#projects"
-                            className="ml-8 inline-flex text-black bg-blue-300 border-0 py-2 px-4 focus:outline-none hover:bg-gray-800 hover:text-white rounded text-lg">
+                            className="animate-bounce ml-8 inline-flex text-black bg-blue-300 border-0 py-2 px-4 focus:outline-none hover:bg-gray-800 hover:text-white rounded md:text-lg sm:text-sm mb-5">
                             See my Previous / Current Projects
                         </motion.a>
                     </div>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <div id="imgBox" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img
+                        id="me"
                         className="object-cover object-center rounded"
                         alt="coding"
                         src={process.env.PUBLIC_URL + "/images/work.png"}                    
