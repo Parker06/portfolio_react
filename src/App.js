@@ -8,6 +8,7 @@ import Development from "./components/Development";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from './components/Skills';
+import './firebase';
 import "./index.css"
 
 
