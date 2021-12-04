@@ -1,4 +1,5 @@
 import React from 'react';
+import { projects } from "../data";
 
 export default function Development() {
     return(
@@ -9,6 +10,33 @@ export default function Development() {
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-center">
                         This will show the development process for my portfolio and how I go about executing the development process of a website.
                     </p>
+                    <div className="flex flex-wrap -m-4">
+                        {
+                            projects.map((project) => (
+                                <a
+                                    href={project.link}
+                                    target="_blank"
+                                    className="sm:w-1/2 w-full p-4">
+                                    <div className="flex relative">
+                                        <img 
+                                            alt="gallery"
+                                            className="absolute inset-0 w-full h-full object-cover object-center"
+                                            src={project.image}
+                                        />
+                                        <div className="px-8 py-10 relative z-9 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                                            <h2 className="tracking-widest text-sm title-font font-medium text-blue-600 mb-1">
+                                                {project.subtitle}
+                                            </h2>
+                                            <h1 className="title-font text-lg font-medium text-white mb-3">
+                                                {project.title}
+                                            </h1>
+                                            <p className="leading-relaxed">{project.description}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
         </section>
