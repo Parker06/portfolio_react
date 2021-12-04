@@ -7678,10 +7678,10 @@
   "resolved" "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz"
   "version" "1.0.0"
 
-"json-schema@0.2.3":
+"json-schema@0.4.0":
   "integrity" "sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM="
-  "resolved" "https://registry.npmjs.org/json-schema/-/json-schema-0.2.3.tgz"
-  "version" "0.2.3"
+  "resolved" "https://registry.npmjs.org/json-schema/-/json-schema-0.4.0.tgz"
+  "version" "0.4.0"
 
 "json-stable-stringify-without-jsonify@^1.0.1":
   "integrity" "sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE="
