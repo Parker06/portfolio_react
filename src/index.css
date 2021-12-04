@@ -5,6 +5,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 html {
   scroll-behavior: smooth;
@@ -47,34 +52,13 @@ nav a:hover{
   padding-bottom: 100px;
 }
 
-/* Navbar */
-#Navbar button{
-  display: none;
-}
-
-#Navbar .leftSide{
-  align-items: center;
-  display: flex;
-  margin-right: 80px;
-}
-
-#Navbar .leftSide #hidden{
-  display: flex;
-}
-
-#Navbar .rightSide{
-  margin-left: 80px;
-}
-
-
-#Navbar button{
-  display: none;
-}
-
 
 @media only screen and (max-width: 850px) {
   #Navbar a{
-    font-size: 20px;
+    font-size: 15px;
+  }
+  #about h3{
+    font-size: 18px;
   }
 }
 
@@ -84,32 +68,6 @@ nav a:hover{
   }
 }
 
-@media only screen and (max-width: 650px) {
-  #Navbar button{
-    display: flex;
-  }
-
-  #Navbar .leftSide a{
-    display: none;
-  }
-
-  #Navbar .leftSide #hidden{
-    position: absolute;
-    left: 0;
-    top: 80px;
-    height: auto;
-    max-height: 230px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #Navbar .leftSide #hidden a{
-    margin: 10px;
-    font: size 25px;
-  }
-
-}
 
 /* images */
 
