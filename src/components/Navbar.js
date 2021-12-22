@@ -3,13 +3,8 @@ import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
 import { motion } from "framer-motion";
 
-class Navbar extends Component {
-
-  state = {showing: true};
-
-  render(){
-    const { showing } = this.state;
-        return (
+export default function Navbar(){
+    return (
             <header className="md:sticky sm:sticky top-0 z-10" style={{backgroundColor: '#0D0047'}}>
             <div id="Navbar" className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <motion.a
@@ -85,8 +80,5 @@ class Navbar extends Component {
                 </div>
                 </div>
             </header>
-        );
-  }
+    )
 }
-
-export default Navbar;
