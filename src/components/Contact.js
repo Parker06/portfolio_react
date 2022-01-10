@@ -1,4 +1,5 @@
 import React from "react";
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import "../index.css";
 
 export default function Contact() {
@@ -29,17 +30,17 @@ export default function Contact() {
     <section id="contact" className="relative bg-blue-900">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <iframe
-            width="100%"
-            height="100%"
-            title="map"
-            className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
-            style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162805.1455801652!2d-4.252652550477155!3d50.3883600879516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486c8d530e95ea3d%3A0x3b282cb5cef58593!2sPlymouth!5e0!3m2!1sen!2suk!4v1635176643985!5m2!1sen!2suk"
+        <MapContainer center={[50.3755, 4.1427]} zoom={13} scrollWheelZoom={false}>
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
+          <Marker position={[50.3755, 4.1427]}>
+            <Popup>
+              A map view of my home city. <br /> Plymouth.
+            </Popup>
+          </Marker>
+        </MapContainer>
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
