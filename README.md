@@ -1,6 +1,6 @@
-# Hi Welcome to my portfolio github repository.
+# Hi and welcome to my portfolio github repository.
 
-## [Website](https://harry-parker.netlify.app)
+## [Website](https://harryparker.co.uk/)
 ## Read more about me! [Read Me!](https://github.com/Parker06/Parker06)
 
 # Technologies used:
