@@ -16,8 +16,8 @@
 * [Tailwind CSS](https://tailwindcss.com)
 
 ### Graphics and Color Design:
-* Adobe Photoshop 
-* Adobe XD
+* Adobe Photoshop for Graphics
+* Adobe XD for Planning the Layout of website
 * Adobe Colours - [Colour Palette Used](https://color.adobe.com/My%20Color%20Blind%20Safe%20Theme-color-theme-18848127)
 * Noto Sans - [Google Font](https://fonts.google.com/noto/specimen/Noto+Sans)
 
