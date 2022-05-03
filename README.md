@@ -1,6 +1,6 @@
-# Hi Welcome to my portfolio github repository.
+# Hi and welcome to my portfolio github repository.
 
-## [Website](https://harry-parker.netlify.app)
+## [Website](https://harryparker.co.uk/)
 ## Read more about me! [Read Me!](https://github.com/Parker06/Parker06)
 
 # Technologies used:
@@ -16,8 +16,8 @@
 * [Tailwind CSS](https://tailwindcss.com)
 
 ### Graphics and Color Design:
-* Adobe Photoshop 
-* Adobe XD
+* Adobe Photoshop for Graphics
+* Adobe XD for Planning the Layout of website
 * Adobe Colours - [Colour Palette Used](https://color.adobe.com/My%20Color%20Blind%20Safe%20Theme-color-theme-18848127)
 * Noto Sans - [Google Font](https://fonts.google.com/noto/specimen/Noto+Sans)
 
